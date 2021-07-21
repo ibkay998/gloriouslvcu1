@@ -1,0 +1,16 @@
+.maincontent {
+    position: relative;
+ }
+
+ .headerwaves img {
+   display: flex;
+   object-fit: cover;
+   filter: hue-rotate(3);
+ }
+
+ .headerwaves p{
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+ 
+  }
