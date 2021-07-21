@@ -20,29 +20,88 @@ export default function Home() {
         <link rel="icon" href="/lvculogo.png" />
         <Breadcrumb separator=" " className={styles.container1} ml={[5]}>
           <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
-          <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
-          <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
-          <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
-          <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
-          <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
+          <BreadcrumbItem><BreadcrumbLink href="#">Who We Are</BreadcrumbLink></BreadcrumbItem>
+          <BreadcrumbItem><BreadcrumbLink href="#">SOD</BreadcrumbLink></BreadcrumbItem>
+          <BreadcrumbItem><BreadcrumbLink href="#">Special Programmes</BreadcrumbLink></BreadcrumbItem>
+          <BreadcrumbItem><BreadcrumbLink href="#">Resources</BreadcrumbLink></BreadcrumbItem>
+          <BreadcrumbItem><BreadcrumbLink href="#"></BreadcrumbLink></BreadcrumbItem>
         </Breadcrumb>
       </Head>
       {/*  */}
 
-      <main className={styles.main}>
-        <Grid 
-          w="100%"
-          templateColumns="repeat(3, 1fr)"
-          templateRows="repeat(6, 1fr)"
-        >
-          <GridItem w={[500,748,974,1257,1800]} rowSpan={1} colSpan={3}  h="100px" bg="red" >God is good and he his kind</GridItem>
-          <GridItem  h="50px" bg="blue"></GridItem>
-          <GridItem   h="100px" bg="green"></GridItem>
-          <GridItem  h="100px" bg="black"></GridItem>
-          <GridItem  h="100px" bg="purple"></GridItem>
-          <GridItem  h="100px" bg="blue"></GridItem>
-        </Grid>
-      </main>
+      
+        <div className={styles.train}>
+         <header>
+         <h1>We Train A People for Christ</h1>
+           </header> 
+        </div>
+
+        <div className={styles.welcome}>
+          <p><em>Welcome to The Glorious Family</em></p>  
+            <p><strong>This is the Lagos Varsity Christian Union aka The Glorious Family</strong></p> 
+              <br></br>
+          <p >Tenure of</p>
+          <p className={styles.welcom}>God's Saving Power</p>
+          <p className={styles.welc}><em>Raising Men with the Gospel of Christ</em> Romans 1:16, Matt 28:18-20</p>
+          
+        </div>
+
+        
+
+        <div className={styles.aboutPres}>
+           <p><h1>Oyewunmi Emmanuel</h1></p>
+           <p><h3>President(Tenure of God's Saving Power)</h3></p>
+        </div>
+
+        
+
+        <div className={styles.recent}>
+          <h1>Recent Sermons</h1>
+          <ul>
+          <li> Caring for other believers</li>
+          <li>This Gospel(I)</li>
+          <li>This Gospel(II)</li>
+          </ul>
+        </div>
+
+        <div className={styles.services}>
+          <h1>Our Services</h1>
+          <p><strong>Preaching and Teaching the Word of grace with simplicity and accuracy accompanying the manifestation of the Holy Spirit and Power</strong></p>
+          <ul>
+            <li>Hour of Power</li>
+            <li>Bible Study</li>
+            <li>Glorious Service</li>
+          </ul>
+        </div>
+
+        <div className={styles.newslet}>
+          <div>
+            <p>Raising great women and men in all spheres of human endeavour
+            by the preaching of the word
+             of grace who will establish and expand
+              God's kingdom upon the earth</p>
+              
+            <h4>Chapel of Christ our Light</h4>
+            <h4>gloriouslvcu7@gmail.com</h4>
+            <h4>+234 803 816 9388</h4>
+          </div>
+          <div className={styles.subsc}>
+            <h1>Newsletter for Editorial Subscription</h1>
+            <h2>Subscribe to receive our newsletters</h2>
+
+            <br></br>
+            <form>
+              <input type= "text" placeholder="Enter First Name" required></input>
+
+              
+              <input type= "text" placeholder="Enter Email" required></input>
+
+            </form>
+          </div>  
+              
+        </div>
+
+    
 
       <footer className={styles.footer} bg="black">
         <Text>Lagos Varsity Christian Union Copyright 2021. All rights reserved</Text>
