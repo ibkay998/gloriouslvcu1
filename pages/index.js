@@ -31,9 +31,9 @@ export default function Home() {
 
       
         <div className={styles.train}>
-         <header>
-         <h1>We Train A People for Christ</h1>
-           </header> 
+         <h1>We raise people </h1>
+         <p><em>For Christ</em></p>
+        
         </div>
 
         <div className={styles.welcome}>
@@ -68,10 +68,11 @@ export default function Home() {
           <h1>Our Services</h1>
           <p><strong>Preaching and Teaching the Word of grace with simplicity and accuracy accompanying the manifestation of the Holy Spirit and Power</strong></p>
           <ul>
-            <li>Hour of Power</li>
-            <li>Bible Study</li>
-            <li>Glorious Service</li>
+            <li className={styles.li1}>Glorious Service</li>
+            <li className={styles.li2}>Hour of Power</li>
+            <li  className={styles.li3}>Bible Study</li>
           </ul>
+
         </div>
 
         <div className={styles.newslet}>
