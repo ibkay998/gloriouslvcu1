@@ -134,7 +134,7 @@
 
 
 .recent {
-  background-color: beige;
+  background-color: #E9E9E9;
   width: 80%;
   height: 450px;
 }
@@ -143,37 +143,84 @@
   display: flex;
   color: crimson;
   justify-content: center;
+  margin: 20px;
+  font-size: 25px;
+
 }
 
-.recent ul {
+.mv {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.recent li {
-  margin: 1rem;
+.recent span {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+
 }
+
+.li5 {
+  background-image: url(../public/social\ media@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
+.li5 p, .li6 p, .li7 p {
+  font-weight: bolder;
+  margin-top: 290px;
+  font-size: 20px;
+}
+
+.li6 {
+  background-image: url(../public/sunday\ service@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
+.li7 {
+  background-image: url(../public/sunday\ servive@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+
 .aboutPres {
   border: 100px #000;
   margin: 0px;
   padding: 40px;
   background-color: crimson;
-  height: 200px;
+  height: 300px;
   width: 80%;
   background-image: url(../public/IMG_0281@2x.png);
-  background-size: 190px;
+  background-size: 230px;
   background-repeat: no-repeat;
-  
+  background-position-x: 60px;
+  background-position-y: 30px;
 
 }
 
 .aboutPres p {
   align-items: right;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   color: #fafafa;
   font-size: 20px;
+  margin-left: 300px;
+ 
+  
 
+}
+
+.aboutPres h1 {
+  font-size: 30px;
+}
+
+.aboutPres h3 {
+  font-weight: lighter;
+  font-size: 15px;
 }
  
 .train {
@@ -213,7 +260,10 @@
 .welcom {
   color: crimson;
   font-size: 70px;
- font-weight: bold;
+ font-weight: bolder;
+  margin: 0px;
+  justify-content: center;
+  padding-top: 0px;
 }
 
 .welc {
@@ -228,10 +278,9 @@
   align-items: center;
   justify-content: center;
   width: 80%;
-  margin-top: 5px;
+  margin-top: 30px;
   height: 600px;
   text-align: center;
-  outline: 1px solid #000;
 
 }
 
@@ -253,16 +302,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
-.services li {
-  margin: 1rem;
+.services span{
+  margin: 30px;
   background-color: #E9E9E9;
   color: #ca3232;
   padding: 10px;
   font-weight: bold;
   height: 400px;
   width: 400px;
+
 
 }
 
@@ -273,11 +324,44 @@
   background-position: center;
 }
 
+.li1 p {
+  color:#fafafa;
+  height: 30px;
+  font-size: 20px;
+  background-color: crimson;
+  width: 200px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.li1 h3 {
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 300px;
+  color: #000;
+}
 .li2 {
   background-image: url(../public/IMG_1801@2x.png);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: center;
+}
+
+.li2 p {
+  color:#fafafa;
+  height: 30px;
+  font-size: 20px;
+  background-color: crimson;
+  width: 200px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.li2 h3 {
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 300px;
+  color: #000;
 }
 
 .li3 {
@@ -287,26 +371,83 @@
   background-position: center;
 }
 
+.li3 p {
+  color:#fafafa;
+  height: 30px;
+  font-size: 20px;
+  background-color: crimson;
+  width: 200px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.li3 h3 {
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 300px;
+  color: #000;
+}
 
 
 .newslet {
   font-size: 15px;
   display: flex;
   background-color: rgb(11, 11, 68);
-  color:mistyrose;
+  color: #fafafa;
   width: 80%;
-  height: 900px;
-  margin-top: 300px;
+  height: 600px;
+  margin-top: 0px;
+  justify-content: center;
+  background-image: url(../public/lvculogo.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: top 90px left 50px;
+
+
 }
 
 .newslet p {
-  font-size: 15px;
+  font-size: 13px;
   padding: 40px;
+  width: 400px;
+  margin-top: 200px;
 }
 
 .newslet h4 {
-  font-size: 15px;
-  padding: 40px;
+  font-size: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  
 }
+
+.subsc{
+  font-weight: bold;
+  padding: 40px;
+  margin-left: 60px;
+  width: 520px;
+  font-size: 20px ;
+  margin-top: 100px;
+
+
+}
+
+.subsc h1 {
+  font-size: 20px;
+ 
+}
+
+.subsc h2 {
+  font-size: 15px;
+}
+
+
+@supports(-moz-appearance: none){
+  .input[type='text']{
+    --width: 300px;
+  }
+
+}
+
+
 
 

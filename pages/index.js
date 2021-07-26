@@ -10,6 +10,7 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbSeparator,
+  Image
 } from "@chakra-ui/react"
 
 export default function Home() {
@@ -50,33 +51,46 @@ export default function Home() {
 
         <div className={styles.aboutPres}>
            <p><h1>Oyewunmi Emmanuel</h1></p>
-           <p><h3>President(Tenure of God's Saving Power)</h3></p>
+           <p><h3><strong>President</strong> <em>Tenure of God's Saving Power</em></h3></p>
         </div>
 
         
 
         <div className={styles.recent}>
           <h1>Recent Sermons</h1>
-          <ul>
-          <li> Caring for other believers</li>
-          <li>This Gospel(I)</li>
-          <li>This Gospel(II)</li>
-          </ul>
+          <div className={styles.mv}>
+          <span className={styles.li5}><p>Caring for other believers in your local church</p></span>
+          <span className={styles.li6}><p>This Gospel(II)</p></span>
+          <span className={styles.li7}><p>This Gospel(I)</p></span>
+          </div>
         </div>
 
         <div className={styles.services}>
           <h1>Our Services</h1>
           <p><strong>Preaching and Teaching the Word of grace with simplicity and accuracy accompanying the manifestation of the Holy Spirit and Power</strong></p>
-          <ul>
-            <li className={styles.li1}>Glorious Service</li>
-            <li className={styles.li2}>Hour of Power</li>
-            <li  className={styles.li3}>Bible Study</li>
+          <ul className={styles.services1}>
+            <span className={styles.li1}>
+              <p>Glorious Service</p>
+              <h3>Sundays 2pm-4pm</h3>
+            </span>
+            <span className={styles.li2}>
+              <p>Hour of Power</p>
+              <h3>Mondays 8pm-9pm</h3>
+
+              </span>
+            <span className={styles.li3}>
+              <p>Bible Study</p>
+              <h3>Thursdays 7:30pm-9pm</h3>
+
+              </span>
           </ul>
+          
 
         </div>
 
         <div className={styles.newslet}>
           <div>
+
             <p>Raising great women and men in all spheres of human endeavour
             by the preaching of the word
              of grace who will establish and expand
@@ -94,8 +108,17 @@ export default function Home() {
             <form>
               <input type= "text" placeholder="Enter First Name" required></input>
 
+              <br></br>
+              <br></br>
+              
+
               
               <input type= "text" placeholder="Enter Email" required></input>
+
+              <br></br>
+              <br></br>
+
+              <input type= "button" value="Subscribe"></input>
 
             </form>
           </div>  
