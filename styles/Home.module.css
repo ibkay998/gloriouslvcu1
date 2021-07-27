@@ -6,6 +6,7 @@
   width: 200vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 .container1 {
   height: 25px;
@@ -18,6 +19,11 @@
   margin-left: 100px;
   font-size: 15px;
   font-weight: bold;
+  justify-content: space-between;
+  background-image: url(../public/lvculogo.png);
+  background-repeat: no-repeat;
+  background-position-x: 30px;
+  background-size: 30px;
 }
 
 
@@ -31,7 +37,7 @@
   padding-left: 20px;
   color:rgb(241, 241, 241);
   margin-top: 0px;
-
+  font-family: 'Baloo Chettan 2', cursive;
 
 }
 
@@ -145,6 +151,7 @@
   justify-content: center;
   margin: 20px;
   font-size: 25px;
+  font-family: 'Shadows Into Light', cursive;
 
 }
 
@@ -235,9 +242,40 @@
   background-size: cover;
   height: 100vh;
   border: 1px solid #000;
-  color:#eaeaea
+  color:#eaeaea;
+  transition: 5s;
 
 
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+
+  @keyframes animate {
+    0%{
+      background-image: url(../public/IMG_0043@2x.png);
+    }20%{
+      background-image: url(../public/IMG_0004@2x.png);
+    }40%{
+      background-image: url(../public/IMG_0060@2x.png);
+    }
+    
+  }
+
+
+}
+
+.btn45 {
+  border-radius: 90px;
+  border: 1px solid #000;
+  background-color: #ca3232;
+  font-size: 20px;
+  padding: 15px;
+  
+  
 }
 
 .train h1 {
@@ -296,6 +334,7 @@
   font-weight: bold;
   font-style: italic;
   font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .services ul {
@@ -441,13 +480,28 @@
 }
 
 
-@supports(-moz-appearance: none){
-  .input[type='text']{
-    --width: 300px;
-  }
-
+.from {
+  width: 200px;
+  color: #000;
+  
+  
 }
 
+ .form1 {
+  font-weight: lighter;
+  width: 300px;
+  text-align: left;
+  border-radius: 5px;
+ }
+
+.btn{
+  border-radius: 10px;
+}
+
+.btn :hover{
+  opacity: .7;
+  color: #000;
+}
 
 
 

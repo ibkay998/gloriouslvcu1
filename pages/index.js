@@ -19,6 +19,9 @@ export default function Home() {
       <Head>
         <title>GloriousLvcu</title>
         <link rel="icon" href="/lvculogo.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet"></link>
         <Breadcrumb separator=" " className={styles.container1} ml={[5]}>
           <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
           <BreadcrumbItem><BreadcrumbLink href="#">Who We Are</BreadcrumbLink></BreadcrumbItem>
@@ -34,6 +37,7 @@ export default function Home() {
         <div className={styles.train}>
          <h1>We raise people </h1>
          <p><em>For Christ</em></p>
+         <button type="button" className={styles.btn45}>Our Sermons</button>
         
         </div>
 
@@ -57,7 +61,7 @@ export default function Home() {
         
 
         <div className={styles.recent}>
-          <h1>Recent Sermons</h1>
+          <h1><em>Recent Sermons</em></h1>
           <div className={styles.mv}>
           <span className={styles.li5}><p>Caring for other believers in your local church</p></span>
           <span className={styles.li6}><p>This Gospel(II)</p></span>
@@ -66,7 +70,7 @@ export default function Home() {
         </div>
 
         <div className={styles.services}>
-          <h1>Our Services</h1>
+          <h1><em>Our Services</em></h1>
           <p><strong>Preaching and Teaching the Word of grace with simplicity and accuracy accompanying the manifestation of the Holy Spirit and Power</strong></p>
           <ul className={styles.services1}>
             <span className={styles.li1}>
@@ -105,21 +109,24 @@ export default function Home() {
             <h2>Subscribe to receive our newsletters</h2>
 
             <br></br>
-            <form>
-              <input type= "text" placeholder="Enter First Name" required></input>
+            <form action="">
+            <div className={styles.from}>
+              <input type= "text" placeholder="Enter First Name"  className={styles.form1} required></input>
 
               <br></br>
               <br></br>
+
+
+
+              <input type= "text" placeholder="Enter Email" className={styles.form1} required></input>
+
+               <br></br>
+               <br></br>
+
+              <input type= "submit" value="Subscribe"  className={styles.btn}></input>
+
+            </div>
               
-
-              
-              <input type= "text" placeholder="Enter Email" required></input>
-
-              <br></br>
-              <br></br>
-
-              <input type= "button" value="Subscribe"></input>
-
             </form>
           </div>  
               
