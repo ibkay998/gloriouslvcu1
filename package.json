@@ -11,9 +11,13 @@
     "@chakra-ui/react": "^1.6.5",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
+    "@fontsource/open-sans": "^4.5.0",
+    "@fontsource/raleway": "^4.5.0",
+    "bootstrap": "^5.0.2",
     "framer-motion": "^4.1.17",
     "next": "10.x",
     "react": "17.x",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "17.x"
   }
 }

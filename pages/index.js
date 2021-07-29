@@ -1,7 +1,11 @@
 import Head from 'next/head'
+
 import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';   
+import BootstrapCarousel from './BootstrapCarousel'  
 import {
   Header,
+  Button,
   Text,
   Grid,
   GridItem,
@@ -10,7 +14,8 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbSeparator,
-  Image
+  Image,
+  Flex
 } from "@chakra-ui/react"
 
 export default function Home() {
@@ -19,9 +24,6 @@ export default function Home() {
       <Head>
         <title>GloriousLvcu</title>
         <link rel="icon" href="/lvculogo.png" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet"></link>
         <Breadcrumb separator=" " className={styles.container1} ml={[5]}>
           <BreadcrumbItem><BreadcrumbLink href="#">Home</BreadcrumbLink></BreadcrumbItem>
           <BreadcrumbItem><BreadcrumbLink href="#">Who We Are</BreadcrumbLink></BreadcrumbItem>
@@ -33,14 +35,15 @@ export default function Home() {
       </Head>
       {/*  */}
 
-      
-        <div className={styles.train}>
+        
+        <Flex >
+         <BootstrapCarousel/>
          <h1>We raise people </h1>
          <p><em>For Christ</em></p>
          <button type="button" className={styles.btn45}>Our Sermons</button>
         
-        </div>
-
+        </Flex>
+       
         <div className={styles.welcome}>
           <p><em>Welcome to The Glorious Family</em></p>  
             <p><strong>This is the Lagos Varsity Christian Union aka The Glorious Family</strong></p> 

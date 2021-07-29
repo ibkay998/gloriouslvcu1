@@ -201,7 +201,7 @@
   background-color: crimson;
   height: 300px;
   width: 80%;
-  background-image: url(../public/IMG_0281@2x.png);
+  background-image: url(../public/assests/img4.png);
   background-size: 230px;
   background-repeat: no-repeat;
   background-position-x: 60px;
@@ -236,7 +236,7 @@
   width: 80%;
   margin-top: 20px;
   text-align: center;
-  background-image: url(../public/Untitled-1@2x.png);
+  background-image: url(../public/assests/Untitled-1@2x.png);
   background-size: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,11 +256,11 @@
 
   @keyframes animate {
     0%{
-      background-image: url(../public/IMG_0043@2x.png);
+      background-image: url(../public/assests/img3.png);
     }20%{
-      background-image: url(../public/IMG_0004@2x.png);
+      background-image: url(../public/assests/img2.png);
     }40%{
-      background-image: url(../public/IMG_0060@2x.png);
+      background-image: url(../public/assests/img1.png);
     }
     
   }
@@ -357,7 +357,7 @@
 }
 
 .li1 {
-  background-image: url(../public/IMG_0277@2x.png);
+  background-image: url(../public/assests/IMG_0281@2x.png);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: center;
@@ -380,7 +380,7 @@
   color: #000;
 }
 .li2 {
-  background-image: url(../public/IMG_1801@2x.png);
+  background-image: url(../public/assests/IMG_1801@2x.png);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: center;
@@ -404,7 +404,7 @@
 }
 
 .li3 {
-  background-image: url(../public/IMG_0031@2x.png);
+  background-image: url(../public/assests/img4.png);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: center;
