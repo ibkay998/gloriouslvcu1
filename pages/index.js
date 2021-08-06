@@ -36,13 +36,13 @@ export default function Home() {
       {/*  */}
 
         
-        <Flex >
-         <BootstrapCarousel/>
-         <h1>We raise people </h1>
-         <p><em>For Christ</em></p>
+        
+        
+      <BootstrapCarousel/>
+          
          <button type="button" className={styles.btn45}>Our Sermons</button>
         
-        </Flex>
+        
        
         <div className={styles.welcome}>
           <p><em>Welcome to The Glorious Family</em></p>  
